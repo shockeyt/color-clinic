@@ -57,8 +57,8 @@ p {
 .main {
   background-image: url(images/driptvgif.gif);
   background-size: auto;
-  height: calc(100vh - 146px);
   position: relative;
+  padding: 12px 0 32px;
 }
 .main::before {
   content: '';
@@ -70,15 +70,14 @@ p {
   height: 100%;
 }
 .color-box {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 5%;
+  height: auto;
+  margin-left: calc(5% - 4px);
+  padding-top: 12px;
+  padding-bottom: 16px;
   z-index: 1;
   width: 90%;
-  height: 72vh;
   border: 2px solid #000;
-  background-color: rgba(219,224,25,0.9);
+  background-color: rgba(219,224,25,0.7);
   animation: colorchangeopacity 30s infinite reverse;
   box-shadow: 2px 3px 2px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 2px 3px 2px 0px rgba(0,0,0,0.75);
@@ -174,10 +173,20 @@ p {
   margin-left: 5px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (min-height: 500px) {
+  .main {
+    height: calc(100vh - 146px);
+    padding: 0;
+  }
   .color-box {
+    padding: 0;
+    margin: 0;
     width: 80%;
     left: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: calc(100vh - 250px);
   }
   .App-footer a {
     font-size: 24px;
@@ -242,21 +251,21 @@ p {
 
 @keyframes colorchangeopacity {
   0% {
-    background-color: rgba(250, 75, 45, 0.9);
+    background-color: rgba(250, 75, 45, 0.7);
   }
   20% {
-    background-color: rgba(188, 250, 45, 0.9);
+    background-color: rgba(188, 250, 45, 0.7);
   }
   40% {
-    background-color: rgba(85, 113, 165, 0.9);
+    background-color: rgba(85, 113, 165, 0.7);
   }
   60% {
-    background-color: rgba(45, 117, 250, 0.9);
+    background-color: rgba(45, 117, 250, 0.7);
   }
   80% {
-    background-color: rgba(168, 62, 150, 0.9);
+    background-color: rgba(168, 62, 150, 0.7);
   }
   100% {
-    background-color: rgba(111, 122, 83, 0.9);
+    background-color: rgba(111, 122, 83, 0.7);
   }
 }
