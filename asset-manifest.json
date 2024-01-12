@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/color-clinic/static/css/main.f9b576f4.css",
-    "main.js": "/color-clinic/static/js/main.70941ddc.js",
-    "static/js/787.cb259e12.chunk.js": "/color-clinic/static/js/787.cb259e12.chunk.js",
-    "static/media/driptvgif.gif": "/color-clinic/static/media/driptvgif.3383d42919f2e52a16bc.gif",
-    "static/media/Color-Clinic-album-cover.jpg": "/color-clinic/static/media/Color-Clinic-album-cover.424ed185ae6df06fbdc4.jpg",
-    "static/media/cc-show-12-8-23.jpg": "/color-clinic/static/media/cc-show-12-8-23.a0421ee3fed99a0a84b1.jpg",
-    "static/media/cc-band-photo.jpg": "/color-clinic/static/media/cc-band-photo.76b6f17c5606061a673e.jpg",
-    "index.html": "/color-clinic/index.html",
-    "main.f9b576f4.css.map": "/color-clinic/static/css/main.f9b576f4.css.map",
-    "main.70941ddc.js.map": "/color-clinic/static/js/main.70941ddc.js.map",
-    "787.cb259e12.chunk.js.map": "/color-clinic/static/js/787.cb259e12.chunk.js.map"
+    "main.css": "/static/css/main.f9b576f4.css",
+    "main.js": "/static/js/main.70941ddc.js",
+    "static/js/787.cb259e12.chunk.js": "/static/js/787.cb259e12.chunk.js",
+    "static/media/driptvgif.gif": "/static/media/driptvgif.3383d42919f2e52a16bc.gif",
+    "static/media/Color-Clinic-album-cover.jpg": "/static/media/Color-Clinic-album-cover.424ed185ae6df06fbdc4.jpg",
+    "static/media/cc-show-12-8-23.jpg": "/static/media/cc-show-12-8-23.a0421ee3fed99a0a84b1.jpg",
+    "static/media/cc-band-photo.jpg": "/static/media/cc-band-photo.76b6f17c5606061a673e.jpg",
+    "index.html": "/index.html",
+    "main.f9b576f4.css.map": "/static/css/main.f9b576f4.css.map",
+    "main.70941ddc.js.map": "/static/js/main.70941ddc.js.map",
+    "787.cb259e12.chunk.js.map": "/static/js/787.cb259e12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9b576f4.css",
