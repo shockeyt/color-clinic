@@ -69,6 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 3. Copy build files to root
 4. Push changes up
 
+### Deployment to external URL
+1. Find and replace any /color-clinic/ file links with / for live site
+
 
 ### `npm run build` fails to minify
 

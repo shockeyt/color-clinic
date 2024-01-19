@@ -1,5 +1,6 @@
 import imageOne from './images/Color-Clinic-album-cover.jpg';
 import imageTwo from './images/cc-show-12-8-23.jpg';
+import imageThree from './images/hollow_show.jpeg';
 import bandPhotoOne from './images/cc-band-photo.jpg';
 import omcLogo from './images/omc-logo.png';
 import './App.css';
@@ -18,10 +19,27 @@ function App() {
             <div className="feed">
               <div className="feed-item">
                 <div className="feed-item-title">
+                  <h3>January 2024</h3>
+                </div>
+                <div className="feed-item-content">
+                  <p>Lost Lake Lounge</p>
+                  <p>w/ Hollow Head & Pie Lombardi</p>
+                  <a href="https://lost-lake.com/event/hollow-head-w-pie-lombardi-color-clinic-mike-ring/lost-lake/denver-colorado/" target="_blank" rel="noreferrer">  
+                    <img src={imageThree} alt="Color Clinic show 1-21-24" />
+                  </a>
+                </div>
+              </div>
+              <div className="feed-item">
+                <div className="feed-item-content">
+                  <img src={bandPhotoOne} alt="Color Clinic band" />
+                </div>
+              </div>
+              <div className="feed-item">
+                <div className="feed-item-title">
                   <h3>December 2023</h3>
                 </div>
                 <div className="feed-item-content">
-                  <p>Global Hall</p>
+                  <p>Globe Hall</p>
                   <p>w/ Radiant Drive & Daywish</p>
                   <img src={imageTwo} alt="Color Clinic show 12-8-23" />
                 </div>
